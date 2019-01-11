@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["env", {
+      "module": false,
+      "targets":{
+        "browsers":[
+          ">0.25%",
+          "not ie 11",
+          "not op_mini all",
+          "ie >= 7"
+        ]
+      }
+    }]
+  ],
+  "plugins": ["syntax-dynamic-import"]
+}
